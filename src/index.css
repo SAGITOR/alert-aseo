@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Barlow;
+  src: url("/fonts/Barlow-Regular.otf");
+}
+
+* {
+  font-family: Barlow;
+  box-sizing: border-box;
+}
+
+.gridjs-table {
+  width: 100% !important;
+}
+
+.icon {
+  border-top: 2px solid #701c75;
+  border-left: 2px solid #701c75;
+  border-right: 2px solid #2da9a3;
+  border-bottom: 2px solid #2da9a3;
+  border-radius: 50%;
+}
+
+.--basural {
+  border: 2px solid #f00;
+}
+
+.--camion {
+  border: 2px solid #0f0;
+}
